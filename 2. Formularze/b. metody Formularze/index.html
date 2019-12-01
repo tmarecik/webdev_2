@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <h1>Metoda GET</h1>                     <!--defoultowo-->
+    <form action="/text" method="get">      <!--dopisuje wszystkie parametry w adresie URL / malo bezpieczne-->
+        <input type="text" name="imie">   <!--taki formulazr wusle klucz:wartosc-->
+        <input type="submit">
+    </form>
+
+    <h1>Metoda POST</h1>
+    <form action="/text" method="post">     <!--Szyfruje dane i nie ujawnia ich w adresie URL    -->
+        <input type="text" name="nazwisko">   <!--taki formulazr wusle klucz:wartosc-->
+        <input type="submit">
+    </form>
+
+
+</body>
+</html>

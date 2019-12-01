@@ -1,0 +1,30 @@
+.link:link {       /*jezeli w tym elemencke bedzie link to bedzie on zmieniany!!!*/
+    color: green;
+}
+
+.link:hover {
+    color: red;     /*ta pseudoklasa jest uruhamiana po najechaniu mysza*/
+}
+
+.link:visited {             /*zmieni sie kolor to kliknieciu i taki pozostanie*/
+    color: yellow;
+}
+
+
+.text {
+    width: 400px;
+
+}
+
+/*pseudoclasy do specyficznych zachwań*/
+/*pseudoelementy do specyficznych elementow*/
+
+.text::first-letter{        /*pseudoelent odwołyje sie do pierszej litery w tekscie*/
+    font-size: 50px;
+
+}
+
+.text::first-line {         /*zmienia koloe całej pierwszej lini*/
+    color: red;
+}
+

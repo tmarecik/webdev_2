@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <form action="#">
+        <input type="text"><br>         <!--pola do wprowadzanie-->
+        <input type="button" value="Save"><br>       <!--przycisk  ""save jest napisem na przycisku   -->
+        <input type="checkbox"> <br>
+        <input type="file"><br><br>
+        <input type="radio"><br>        <!--przycisk jednoklikalny-->
+        <input type="password"><br>     <!--maskuje zawartosc-->
+        <input type="submit"><br>       <!--zatwierdzenie formularza-->
+
+        <!--pola wyboru-->
+        <select name="" id="">
+            <!--pole z rozwijalnym menu-->
+            <option value="1">Jeden</option>  <!--value wartość ktora sie nie wyswitla ale jest przekazywana przez formulaz-->
+            <option value="2">Dwa</option>
+            <option value="3">Trzy</option>
+
+        </select><br>
+        
+        <!--rozciaglne pole textowe moze byc miejscem na komentarz-->
+        <textarea name="" id="" cols="30" rows="10"></textarea><br>
+
+        <input type="text" list="tech"> <br>         <!--pole tekstowe z podpowiedziai  korzysta z id datalist-->
+
+        <datalist id="tech">
+            <option value="Java"></option>
+            <option value="JavaScript"></option>
+            <option value="Python"></option>
+        </datalist>
+
+
+    </form>
+
+</body>
+</html>
